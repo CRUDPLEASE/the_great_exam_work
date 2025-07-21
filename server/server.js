@@ -1,7 +1,7 @@
-const express = ('express')
-const cors = ('cors')
-const bcrypt = ('bcrypt')
-const jwt = ('jsonwebtoken')
+const express = require('express')
+const cors = require('cors')
+const bcrypt = require('bcrypt')
+const jwt = require('jsonwebtoken')
 
 const app = express()
 const PORT = 5000
